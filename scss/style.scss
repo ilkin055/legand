@@ -1,0 +1,123 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+  
+    .logo{
+        color:black;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+    }
+    .nav-items{
+        ul{
+            display: flex;
+        }
+        li{
+            padding: 20px;
+        }
+    }
+    .header-icons {
+       i{
+        padding: 5px;
+       }
+    }
+}
+.container{
+    #slider{
+        width: 1280px;
+       margin: auto;
+       .buttons{
+        display: flex;
+        justify-content: space-between;
+        .button{
+            border-radius: 20px;
+            display: flex;
+          
+            justify-content: center;
+           
+           }
+           .button1{
+            border-radius: 20px;
+           }
+       }
+        .sliderItems{
+            width: 80%;
+            display: flex;
+            width: 1280px;
+            overflow: hidden;
+            .sliderItem{
+                transition: 0.5s ease-in-out;
+                img{
+                    width: 1280px;
+                    
+                }
+            }
+        }
+    }
+}
+
+
+.name{
+ h1{
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    color:black;
+ }
+}
+.rooms{
+    display: flex;
+    flex-wrap: wrap;
+    .livingroom{
+        width: 50%;
+       background-image: url("../img/th.jpg");
+    }
+    .second{
+        .bedroom{
+            width: 50%;
+            background-image: url(../img/kakka.jpg);
+            img{
+               width:100% ;
+                
+            }
+        }
+        .khicken{
+            width: 50%;
+            img{
+               width:100% ; 
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+
+    ul{
+        display: flex;
+    }
+}
+
